@@ -1,2 +1,5 @@
 #tix-attendees li{height:auto;float:none;}
-#tix-attendees li::before{display:none !important}
+#tix-attendees .tix-attendee-list  li::before{display:none}
+#tix-attendees .tix-attendee-list .avatar{float:none;width:96px;height:96px;border-radius:100%;box-shadow:1px 1px 2px #000}
+#tix-attendees .tix-attendee-list .tix-field{margin:0}
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-name{font-size:16px}
