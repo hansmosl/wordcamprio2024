@@ -1,0 +1,2 @@
+#tix-attendees li{height:auto;float:none;}
+#tix-attendees li::before{display:none !important}
