@@ -3,6 +3,28 @@
 #tix-attendees .tix-attendee-list .avatar{float:none;width:96px;height:96px;border-radius:100%;box-shadow:1px 1px 2px #000}
 #tix-attendees .tix-attendee-list .tix-field{margin:0}
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-name{font-size:16px}
+
+/* Programação: Atualiza estilo do feedback pós-palestra */
+.speaker-feedback__field textarea {
+  display: block;
+  font: inherit;
+  height: 200px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Programação: Capitaliza a data */
+.wp-block-wordcamp-session-date {
+  text-transform: capitalize;
+}
+
+/* Programação: Substitui "Time" por um ícone de relógio (https://github.com/WordPress/wordcamp.org/issues/1096) */
+.wp-block-wordcamp-schedule .wordcamp-schedule__column-header.is-column-time {
+  font-size: 0;
+  background: no-repeat center/10% url(https://riodejaneiro.wordcamp.org/2024/files/2024/08/icone-relogio.png) ;
+}
+
 @supports (display:grid) {
   @media screen and (min-width: 550px) {
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-some-tracks {
