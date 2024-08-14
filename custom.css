@@ -25,6 +25,13 @@
   background: no-repeat center/10% url(https://riodejaneiro.wordcamp.org/2024/files/2024/08/icone-relogio.png) ;
 }
 
+/* Sponsors Block: Centraliza logos em telas menores */
+@media (max-width: 400px) {
+  .wordcamp-sponsors li.wordcamp-post-list__post.wordcamp-clearfix {
+    justify-content: center;
+  }
+}
+
 @supports (display:grid) {
   @media screen and (min-width: 550px) {
     body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-some-tracks {
